@@ -1,0 +1,52 @@
+/* #291b25 roxo
+
+#61a6ab azul
+
+#eb744f coral
+
+#f2f1ec branco
+
+#f7b9a1 rosa
+
+#ffce6d amarelo */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');
+* {
+    font-family: 'Barlow';
+}
+
+.fist-page {
+    background-color: #61a6ab;
+}
+
+#text-header {
+    color: #291b25;
+    text-align: center;
+    margin-left: -27%;
+    margin-top: 100px;
+    line-height: 15px;
+}
+
+#studio-ghibli {
+    font-family: 'Montserrat';
+}
+
+#site-name {
+    font-size: 100px;
+}
+
+#site-info {
+    font-family: 'Montserrat';
+}
+
+#circle {
+    width: 800px;
+    /*largura*/
+    height: 800px;
+    /*altura*/
+    border-radius: 45%;
+    background-color: #f2f1ec;
+    margin: -10%;
+    margin-top: -15%;
+}

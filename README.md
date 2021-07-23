@@ -1,4 +1,4 @@
-# <img src="https://s6.gifyu.com/images/totoro.png" width="45" height="45" /> Ghibli Wiki 
+# <img src="https://s6.gifyu.com/images/totoro.png" width="45" height="45" /> Spirited Away
 
 <img src="https://s6.gifyu.com/images/40-Of-The-Most-Oddly-Satisfying-Studio-Ghibli-Gifsb7d4c8ea9b4088bd.gif" width="80%" />
  

@@ -18,11 +18,10 @@
 
 body {
     margin: unset;
-}
-
-.fist-page {
     background-color: #61a6ab;
 }
+
+
 
 #text-header {
     color: #291b25;
@@ -49,7 +48,7 @@ body {
 }
 
 #circle {
-    z-index: 1;
+    z-index: 0;
     width: 593px;
     height: 540px;
     background: #f2f1ec;
@@ -92,7 +91,9 @@ body {
 .nav li a
 {
 	color: #291b25; /*cor do texto*/
-	text-decoration: none; 
+    text-decoration: none; 
+    z-index: 2;
+    position: relative;
 }
 .nav li a:hover
 {
@@ -137,7 +138,9 @@ body {
     transform: translate(0%,-6%);
 }
 .change .bar{
-	background-color:#291b25;
+    background-color:#291b25;
+    position: relative;
+    z-index: 2;
 }
 .change #bar1{
 	transform: translateY(4px) rotateZ(-45deg);

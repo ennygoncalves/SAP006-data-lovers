@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');
+
+* {
+    font-family: 'Barlow';
+    background-color: #eb744f;
+}
+
+#menu {
+    width: 35px;
+    height: 30px;
+    margin: 60px 60px;
+    cursor: pointer;
+}
+.bar{
+	height: 5px;
+	width: 100%;
+	background-color: #f3f2ef;
+	display: block;
+	border-radius: 5px;
+	transition: 0.3s ease;
+	
+}
+#bar1{
+	transform: translateY(-4px);
+}
+#bar3{
+	transform: translateY(4px);
+}
+.nav li a
+{
+	color: #291b25; /*cor do texto*/
+    text-decoration: none; 
+    z-index: 2;
+    position: relative;
+}
+.nav li a:hover
+{
+	font-weight: 300;
+}
+.nav li
+{
+	list-style: none;
+	padding: 16px 0;
+}
+.nav
+{
+	padding: 0;
+	margin: 0 20px;
+	transition: 0.3s ease;
+	display: none;
+}
+.menu-bg, #menu-bar{
+	top:0;
+	right:0;
+	position: absolute;
+}
+.menu-bg {
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    background: #f3f2ef;
+    transition: 0.3s ease;
+    border-top-left-radius: 48%;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 62%;
+    border-bottom-left-radius: 57%;
+}
+#menu-bar{
+	z-index:2;
+
+}
+.change-bg {
+    width: 442px;
+    height: 547px;
+    transform: translate(0%,-6%);
+}
+.change .bar{
+    background-color:#291b25;
+    position: relative;
+    z-index: 2;
+}
+.change #bar1{
+	transform: translateY(4px) rotateZ(-45deg);
+}
+.change #bar3{
+	transform: translateY(-6px) rotate(45deg);
+}
+.change #bar2{
+	opacity: 0;
+}
+.change{
+	display: block;
+} 

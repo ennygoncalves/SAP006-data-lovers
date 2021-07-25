@@ -131,7 +131,10 @@ label {
     transition: transform 600ms ease;
     background: none;
 }
-
+.menu-select p{
+    position: relative;
+    z-index: 1;
+}
 select {
     background-color: transparent;
     border: none;
@@ -140,5 +143,5 @@ select {
 }
 
 .option {
-    background-color: black;
+    background-color: transparent;
 }

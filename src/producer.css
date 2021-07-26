@@ -59,22 +59,22 @@
     z-index: 1;
     width: 0;
     height: 0;
-    margin: 30px 0 20px 20px;
-    background: #f3f2ef;
+    margin: 30px 0 30px 12px;
+    background: #ffce6d;
     transition: 0.3s ease;
-    border-top-left-radius: 48%;
+    border-top-left-radius: 0%;
     border-top-right-radius: 25%;
-    border-bottom-right-radius: 62%;
-    border-bottom-left-radius: 57%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 82%;
 }
 #menu-bar{
 	z-index:2;
 
 }
 .change-bg {
-    width: 442px;
+    width: 243px;
     height: 547px;
-    transform: translate(0%,-6%);
+    transform: translate(0%, -6%);
 }
 .change .bar{
     background-color:#291b25;
@@ -93,3 +93,4 @@
 .change{
 	display: block;
 } 
+

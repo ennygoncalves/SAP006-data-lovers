@@ -1,6 +1,6 @@
 
 import './data.js';
-import { ordering } from './data.js';
+import { filmFilter } from './data.js';
 import data from './data/ghibli/ghibli.js';
 
 const movies = data.films;
@@ -42,7 +42,7 @@ print(movies);
 
 document.getElementById("order").addEventListener("change", (option) => {
 	let filter = option.target.value;
-	let order = ordering(movies, filter);
+	let order = filmFilter(movies, filter);
 	print(order);
 });
 

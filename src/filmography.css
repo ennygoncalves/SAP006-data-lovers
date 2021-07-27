@@ -3,7 +3,11 @@
 * {
     font-family: 'Barlow';
     font: #291b25; 
-    background: #ffce6d;
+}
+
+body {
+    
+    background-color: #ffce6d;
 }
 
 #menu {
@@ -114,43 +118,30 @@
 
 
 #movies {
-   background-size: cover;
-    margin-top: 25px;
-    padding-left: 5px;
+    margin-top: 120px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(28%, 1fr));
-    grid-gap: 100px;
-    padding-inline-start: 100px;
-    
-    
-    
+    grid-template-columns: repeat(auto-fit, minmax(29%, 1fr));
+    grid-gap: 96px;
+    padding-inline-start: 106px;
 }
 
 .card {
     background-size: cover;
-    width: 100%;
-    right: 100%;
+    width: 400px;
     border-radius: 0.5rem;
     overflow: hidden;
     transition: transform 600ms ease;
-    
-    
 }
 
 
 .card:hover{
-    transform: scale(1.05);
+    transform: scale(1.09);
     }
-    .card-content{
-        --padding: 2rem;
+    .card-content {
+        --padding: 8%;
         padding: var(--padding);
-        background: linear-gradient(
-            hsl(0 0% 0% / 0), 
-            hsl(0 0% 0% / 0.5) 20%,
-            hsl(0 0% 0% / 1)
-        );
-        transform: translateY(70%);
-        
+        background: linear-gradient( hsl(0 0% 0% / 0), hsl(0 0% 0% / 0.5) 20%, hsl(0 0% 0% / 1) );
+        transform: translateY(84%);
     }
     
     .card:hover .card-content{
@@ -184,10 +175,10 @@
     transform: scalex(1);
     }
     
-    .card-body{
-        
+    .card-body {
         padding: 1.5em;
         max-width: 35ch;
+        color: #f2f1ec;
     }
     
     

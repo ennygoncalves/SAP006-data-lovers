@@ -22,12 +22,11 @@ body {
 }
 
 
-
 #text-header {
     color: #291b25;
     text-align: center;
-    margin-left: -30%;
-    margin-top: -23%;
+    margin-left: -31%;
+    margin-top: -15%;
     line-height: 0;
     z-index: 1;
     position: relative;

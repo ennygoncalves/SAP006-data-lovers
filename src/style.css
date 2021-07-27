@@ -21,8 +21,6 @@ body {
     background-color: #61a6ab;
 }
 
-
-
 #text-header {
     color: #291b25;
     text-align: center;
@@ -66,44 +64,50 @@ body {
     left: 63%;
     width: 553px;
 }
+
 /* 3 barrinhas do menu*/
+
 #menu {
     width: 35px;
     height: 30px;
     margin: 60px 60px;
     cursor: pointer;
 }
-.bar{
-	height: 5px;
-	width: 100%;
-	background-color: #f3f2ef;
-	display: block;
-	border-radius: 5px;
-	transition: 0.3s ease;
-	
+
+.bar {
+    height: 5px;
+    width: 100%;
+    background-color: #f3f2ef;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
 }
-#bar1{
-	transform: translateY(-4px);
+
+#bar1 {
+    transform: translateY(-4px);
 }
-#bar3{
-	transform: translateY(4px);
+
+#bar3 {
+    transform: translateY(4px);
 }
-.nav li a
-{
-	color: #291b25; /*cor do texto*/
-    text-decoration: none; 
+
+.nav li a {
+    color: #291b25;
+    /*cor do texto*/
+    text-decoration: none;
     z-index: 2;
     position: relative;
 }
-.nav li a:hover
-{
-	font-weight: 300;
+
+.nav li a:hover {
+    font-weight: 300;
 }
-.nav li
-{
-	list-style: none;
-	padding: 16px 0;
+
+.nav li {
+    list-style: none;
+    padding: 16px 0;
 }
+
 .nav {
     padding: 0;
     margin: -4px -11px;
@@ -111,11 +115,13 @@ body {
     display: none;
     font-size: 21px;
 }
-.menu-bg, #menu-bar{
-	top:0;
-	right:0;
-	position: absolute;
+
+.menu-bg, #menu-bar {
+    top: 0;
+    right: 0;
+    position: absolute;
 }
+
 .menu-bg {
     z-index: 1;
     width: 0;
@@ -128,29 +134,35 @@ body {
     border-bottom-right-radius: 0%;
     border-bottom-left-radius: 82%;
 }
-#menu-bar{
-	z-index:2;
 
+#menu-bar {
+    z-index: 2;
 }
+
 .change-bg {
     width: 243px;
     height: 547px;
     transform: translate(0%, -6%);
 }
-.change .bar{
-    background-color:#291b25;
+
+.change .bar {
+    background-color: #291b25;
     position: relative;
     z-index: 2;
 }
-.change #bar1{
-	transform: translateY(4px) rotateZ(-45deg);
+
+.change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
 }
-.change #bar3{
-	transform: translateY(-6px) rotate(45deg);
+
+.change #bar3 {
+    transform: translateY(-6px) rotate(45deg);
 }
-.change #bar2{
-	opacity: 0;
+
+.change #bar2 {
+    opacity: 0;
 }
-.change{
-	display: block;
-} 
+
+.change {
+    display: block;
+}

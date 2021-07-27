@@ -1,23 +1,23 @@
-import { example, anotherExample } from '../src/data.js';
+import { filmFilter } from '../src/data.js';
 
 
-describe('example', () => {
-  it('is a function', () => {
-    expect(typeof example).toBe('function');
-  });
-
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
-  });
-});
-
-
-describe('anotherExample', () => {
-  it('is a function', () => {
-    expect(typeof anotherExample).toBe('function');
-  });
-
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
-  });
-});
+test('Faz a filtragem de A-Z', () => {
+  expect(filmFilter(
+    [
+      {
+        "title": "My Neighbor Totoro"
+      },
+      {
+        "title": "Castle in the Sky"
+      }
+    ], "A-Z"
+  )
+  ).toStrictEqual([
+    {
+      "title": "Castle in the Sky"
+    },
+    {
+      "title": "My Neighbor Totoro"
+    }
+  ])
+})

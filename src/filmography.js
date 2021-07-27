@@ -1,6 +1,7 @@
 
 import './data.js';
 import { filmFilter } from './data.js';
+import {meanAge} from './data.js';
 import data from './data/ghibli/ghibli.js';
 
 const movies = data.films;
@@ -23,7 +24,7 @@ function print(movies) {
 						<h4>Producer: ${property.producer}</h4>
 						<h4>Release Date: ${property.release_date}</h4>
 						<h4>Score: ${property.rt_score}</h4>
-					
+						<h4>Mean Age of caracters:${meanAge(property)}</h4>
 					</div>
 			</div>
 		</div>

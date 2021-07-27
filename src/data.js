@@ -36,8 +36,17 @@ export const filterCaracters = (caracters, movieTitle) => {
   return filteredCaracters
 }
 
-
-
-
+export const meanAge = (film) => {
+  let numberOfCharacters = film.people.length
+  let sum = 0
+  for (let person of film.people) {
+    let age = parseInt(person.age)
+    if (isNaN(age)) {
+      continue
+    }
+    sum += parseInt(person.age)
+  }
+  return sum / numberOfCharacters
+}
 
 

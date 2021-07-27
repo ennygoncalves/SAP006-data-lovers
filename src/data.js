@@ -1,7 +1,7 @@
-export const ordering = (element, filter) =>{
-  
-  switch (filter){
-    case ("A-Z"): 
+export const filmFilter = (element, filter) => {
+
+  switch (filter) {
+    case ("A-Z"):
       return element.sort((a, b) => a.title > b.title ? 1 : -1);
 
     case ("Z-A"):
@@ -21,10 +21,23 @@ export const ordering = (element, filter) =>{
 
     case ("internal"):
       return element.sort((a, b) => parseInt(a.chronological_position) > parseInt(b.chronological_position) ? 1 : -1);
-    
+
+  }
+
 }
-  
+
+export const filterCaracters = (caracters, movieTitle) => {
+  let filteredCaracters = []
+  for (let caracter of caracters) {
+    if (caracter.movie_title == movieTitle) {
+      filteredCaracters.push(caracter)
+    }
+  }
+  return filteredCaracters
 }
+
+
+
 
 
 

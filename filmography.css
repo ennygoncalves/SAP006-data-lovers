@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');
 * {
     font-family: 'Barlow';
-    
 }
 
 body {
@@ -156,7 +155,6 @@ body {
     width: max-content;
     background: none;
     color: #f2f1ec;
-    
 }
 
 .card-title::after {
@@ -196,9 +194,7 @@ body {
 }
 
 select {
-    background: linear-gradient( 
-90deg
- ,#b9eaee 0%, #ecd3c8 80%);
+    background: linear-gradient( 90deg, #b9eaee 0%, #ecd3c8 80%);
     border: none;
     font-size: 22px;
     padding: 5px;

@@ -6,18 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spirited Away</title>
-  <link rel="stylesheet" href="filmography.css" />
+  <link rel="stylesheet" href="caracters.css" />
 
 </head>
 
 <body>
 
   <main>
-
-    
-
     <section class="menu">
-      
+
+
       <div id="menu-bar">
 
         <div id="menu">
@@ -32,44 +30,40 @@
             <li><a class="links" href="./index.html">Home</a></li>
             <li><a class="links" href="./filmography.html">Filmography</a></li>
             <li><a class="links" href="./caracters.html">Caracters</a></li>
-
           </ul>
+
         </nav>
 
         <div class="menu-bg" id="menu-bg"></div>
-
       </div>
-
     </section>
+
 
     <section class="menu-select">
 
-      <p>Here you can check the movies in order. Choose the filter and or hover over the image for more information.
-      </p>
-      
+      <p>Here you can check out the characters from all over the Ghibli universe. Choose the character and hover over
+        the image to get more information.</p>
+
       <select name="order" id="order">
 
-        <option class="option" value="" selected disabled>Order by:</option>
-        <option class="option" value="A-Z">A-Z</option>
-        <option class="option" value="Z-A">Z-A</option>
-        <option class="option" value="older">Release - Older to Newer</option>
-        <option class="option" value="newer">Release - Newer to Older</option>
-        <option class="option" value="low">Rating - Low to High</option>
-        <option class="option" value="high">Rating - High to Low</option>
+        <option class="option" value="" selected disabled>Sort by movie:</option>
 
       </select>
-      
+
     </section>
 
-    <section id="movies" class="cards"></section>
-    
     <div id="circle"></div>
     <div id="circle-two"></div>
+
+    <section class="caracters-cards" id="caracters"></section>
+
+
+
 
   </main>
 
   <script src="main.js" type="module"></script>
-  <script src="filmography.js" type="module"></script>
+  <script src="caracters.js" type="module"></script>
 </body>
 
 </html>

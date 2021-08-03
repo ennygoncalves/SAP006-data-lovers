@@ -22,11 +22,11 @@ body {
     margin-left: 1%;
     margin-top: 2%;
     color: #291b25;
-    text-shadow: 4px 4px 2px rgba(247,185,161,0.6);
+    text-shadow: 4px 4px 2px rgba(247, 185, 161, 0.6);
 }
 
 select {
-    background: linear-gradient(90deg,#d0edf5 0%, #f3cebf 80%);
+    background: linear-gradient(90deg, #d0edf5 0%, #f3cebf 80%);
     border: none;
     font-size: 20px;
     padding: 10px;
@@ -137,8 +137,6 @@ select {
     flex-wrap: wrap;
 }
 
-
-
 #caracters {
     margin-top: 120px;
     display: grid;
@@ -153,10 +151,9 @@ select {
     border-radius: 0.5rem;
     overflow: hidden;
     transition: transform 600ms ease;
-    box-shadow: 0px 3px 8px 12px rgba(247,185,161,0.56);
+    box-shadow: 0px 3px 8px 12px rgba(247, 185, 161, 0.56);
     border-radius: 10px 10px 10px 10px;
 }
-
 
 .card:hover {
     transform: scale(1.09);
@@ -206,4 +203,3 @@ select {
 .info {
     margin: 15px 0px -25px 0px;
 }
-

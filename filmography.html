@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spirited Away</title>
+  <link rel="stylesheet" href="filmography.css" />
+
+</head>
+
+<body>
+
+  <main>
+
+    <section class="menu">
+
+      <div id="menu-bar">
+
+        <div id="menu">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+
+        <nav class="navbar">
+
+          <ul class="nav" id="nav">
+            <li><a class="links" href="./index.html">Home</a></li>
+            <li><a class="links" href="./filmography.html">Filmography</a></li>
+            <li><a class="links" href="./caracters.html">Caracters</a></li>
+
+          </ul>
+        </nav>
+
+        <div class="menu-bg" id="menu-bg"></div>
+
+      </div>
+
+    </section>
+
+    <section class="menu-select">
+
+      <p>Here you can check the movies in order. Choose the filter and or hover over the image for more information.
+      </p>
+
+      <select name="order" id="order">
+
+        <option class="option" value="" selected disabled>Order by:</option>
+        <option class="option" value="A-Z">A-Z</option>
+        <option class="option" value="Z-A">Z-A</option>
+        <option class="option" value="older">Release - Older to Newer</option>
+        <option class="option" value="newer">Release - Newer to Older</option>
+        <option class="option" value="low">Rating - Low to High</option>
+        <option class="option" value="high">Rating - High to Low</option>
+
+      </select>
+
+    </section>
+
+    <section id="movies" class="cards"></section>
+
+    <div id="circle"></div>
+    <div id="circle-two"></div>
+
+  </main>
+
+  <script src="main.js" type="module"></script>
+  <script src="filmography.js" type="module"></script>
+</body>
+
+</html>
